@@ -1,0 +1,57 @@
+@media screen and (max-width: 1200px) {
+   
+    nav{
+        flex-direction: column;
+    }
+    
+    .slider{
+        height: 30vh;
+        width: 80vw;
+    }
+
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    .card-item img{
+        width: 140px;
+    }
+
+    .search{
+        justify-content: center;  
+    }
+
+    .search input{
+        margin: 12px 16px;
+    }
+
+    nav ul{
+        height: 34px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {    
+    .slider{
+        height: 25vh;
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 414px) {    
+    .slider{
+        height: 22vh;
+        width: 65vw;
+    }
+}
+@media screen and (max-width: 375px) {    
+    .slider{
+        height: 18vh;
+        width: 60vw;
+    }
+}

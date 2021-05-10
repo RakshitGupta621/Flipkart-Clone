@@ -1,0 +1,26 @@
+flex-all-center{
+    display: flex;/*By default flex display items in a row. If some items are taller than others, all items will stretch along the cross axis to fill its full size.*/
+    justify-content: center; /*Horizontal*/
+    align-items: center;/*Vertical*/
+}
+
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+
+.my-1{
+    margin: 5px 0;;
+}
+.my-2{
+    margin: 26px 0;;
+}
+
+.text-center{
+    text-align: center;
+}

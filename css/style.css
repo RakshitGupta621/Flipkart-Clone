@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --main-bg-color: #2874f0;
+}
+/*Above root is predefined in css as and used to make color as a global variable*/
+
+*{  
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 26px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: azure;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+    align-items: center;
+}
+
+.item{
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.items img{
+    border-radius: 50%;
+    width: 100px;
+    padding: 0 14px;
+}
+
+.items h4:hover{
+    color: var(--main-bg-color);
+    cursor:pointer;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    padding: 6px 12px;
+    margin-left: 40px;
+    color: var(--main-bg-color);
+    background: white;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif ;
+}
+
+.search input{
+    width: 30vh;
+    height: 27px;
+    border: 2px solid white;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.slider{
+    margin: auto;
+    margin: 20px 80px;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 15px;
+   
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}/*use of calc to calculate height of the container by subtracting the height of the header and footer from the total height*/
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: azure;
+    font-family: 'Lato', sans-serif;
+}
+
+footer p{
+    text-align: center;
+    padding: 4vh
+}
