@@ -11,6 +11,7 @@
 	95% { left: -200%; }
 	100% { left: 0; }
 }
+
 #slider figure {
 	width:300%;
 	position: relative;
@@ -24,4 +25,5 @@
 	width: 33.333333333%;
 	height : 100%;
 	float: left;
+	object-fit: contain;
 }

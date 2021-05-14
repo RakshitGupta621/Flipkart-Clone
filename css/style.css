@@ -13,10 +13,7 @@
 header{
     background-color: var(--main-bg-color);
     font-family: 'Lato', sans-serif;
-}
-
-nav{
-    display: flex;
+    object-fit: contain;
 }
 
 .logo{
@@ -27,6 +24,11 @@ nav{
 .logo img{
     width: 88px;
     padding: 0 26px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
 }
 
 nav ul{
@@ -54,10 +56,13 @@ nav ul li a:hover{
 }
 
 .items{
+    justify-content: start;
     display: flex;
     flex-direction: row;
-    padding: 1vh;
+    padding: 1vw;
     align-items: center;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .item{
@@ -65,6 +70,7 @@ nav ul li a:hover{
     padding: 10px;
     text-align: center;
     font-family: 'Lato', sans-serif;
+    
 }
 
 .items img{
@@ -83,22 +89,12 @@ nav ul li a:hover{
     align-items: center;
 }
 
-.login{
-    padding: 6px 12px;
-    margin-left: 40px;
-    color: var(--main-bg-color);
-    background: white;
-    border: 2px solid white;
-    cursor: pointer;
-    font-family: 'Lato', sans-serif ;
-}
-
 .search input{
     width: 30vh;
     height: 27px;
     border: 2px solid white;
-    margin: 0 16px 0 56px;
-    padding: 0 12px;
+    margin: 0 7px 0 56px;
+    padding: 0 10px;
 }
 
 .search button{
@@ -113,14 +109,15 @@ nav ul li a:hover{
 }
 
 .card{
-    max-width: 91vw;
+    max-width: 85vw;
     margin: auto;
     font-family: 'Lato', sans-serif;
 }
 
 .cards{
     display: flex;
-    overflow: hidden;
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .card-item{
@@ -139,13 +136,14 @@ nav ul li a:hover{
 }/*use of calc to calculate height of the container by subtracting the height of the header and footer from the total height*/
 
 footer{
-    height: 12vh;
+    height: 5vh;
+    padding-top: 2vh;
     background-color: var(--main-bg-color);
     color: azure;
     font-family: 'Lato', sans-serif;
 }
 
-footer p{
+footer h5{
     text-align: center;
-    padding: 4vh
+    font-family: 'Lato', sans-serif;
 }
