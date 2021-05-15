@@ -1,3 +1,10 @@
+
+.slider{
+    margin: auto;
+    margin: 20px 80px;
+    overflow: hidden;
+}
+
 #slider {
 	overflow: hidden;
 }

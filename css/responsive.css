@@ -1,9 +1,4 @@
-@media screen and (max-width: 1200px){
-   
-    nav{
-        flex-direction: column;
-    }
-    
+@media screen and (max-width: 876px){
     .slider{
         height: 30vh;
         width: 80vw;
@@ -13,6 +8,19 @@
         justify-content: center;
         margin: 12px 0;
     }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul{
+        height: 58px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    
 
     nav ul{
         justify-content: center;
@@ -37,7 +45,8 @@
 }
 
 
-@media screen and (max-width: 360px) and (min-height: 640px){    
+@media screen and (max-width: 360px) and (min-height: 640px){   
+     
     .slider{
         height: 25vh;
         width: 70vw;
@@ -93,13 +102,13 @@
 
 @media screen and (max-width: 280px) and (min-height: 653px){
     .lines p{
-        font-size: 8px;
+        font-size: 10px;
     }   
 }
 
 @media screen and (max-width: 360px) and (min-height: 640px){
     .lines p{
-        font-size: 10px;
+        font-size: 15px;
     }
     
     footer{
@@ -116,35 +125,8 @@
     
 }
 
-
-@media screen and (max-width: 360px) and (min-height: 640px){
+@media screen and (max-width: 411px){
     .lines p{
-        font-size: 10px;
-    }    
-}
-
-@media screen and (max-width: 411px) and (min-height: 731px){
-    .lines p{
-        font-size: 10px;
+        font-size: 15px;
     }
-
-    .items{
-        justify-content: start;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        overflow: auto;
-        white-space: nowrap;
-    }
-    
-    .item{
-        align-items: center;
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-    }
-    
-    .items img{
-        border-radius: 50%;
-    }
-        
 }

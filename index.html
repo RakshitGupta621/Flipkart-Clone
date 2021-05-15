@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers! </title>
+
+    <link rel = "icon" href = 
+"head_icon.jpg" 
+        type = "image/x-icon">
+  
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/items.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/footer.css">
+
 </head>
 <body>
     <header>
@@ -17,36 +27,46 @@
                     <img src="logo.png" alt="Unable to Load">
                 </div>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Home</a>
+                        <div class="dropdown-content">
+                          <a href="#">Mobiles</a>
+                          <a href="#">Fashion</a>
+                          <a href="#">Home</a>
+                          <a href="#">Appliances</a>
+                          <a href="#">Travel</a>
+                        </div>
+                      </li>
+
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
                 <div class="search">
                     <input type="text" placeholder="Search for products, brands and more" id="">
                     <button class="btn">Search</button>
                 </div>
-
             </nav>
     </header>
     <main>
         <div class="container">
 
+            
             <div class="items">
+                <div class="item">
+                    <img src="https://source.unsplash.com/150x150/?gifts,giftbox" alt="Unable to load">
+                    <h4 class="title">Top Offers</h1>
+                </div>
+                <div class="item">
+                    <img src="https://source.unsplash.com/150x150/?nike" alt="Unable to load">
+                    <h4 class="title">Shoes</h1>
+                </div>
                 <div class="item">
                     <img src="https://source.unsplash.com/150x150/?sofas" alt="Unable to load">
                     <h4 class="title">Furniture</h1>
                 </div>
                 <div class="item">
-                    <img src="https://source.unsplash.com/150x150/?suits" alt="Unable to load">
-                    <h4 class="title">Suits</h1>
-                </div>
-                <div class="item">
                     <img src="https://source.unsplash.com/150x150/?levis" alt="Unable to load">
                     <h4 class="title">Jeans</h1>
-                </div>
-                <div class="item">
-                    <img src="https://source.unsplash.com/150x150/?nike" alt="Unable to load">
-                    <h4 class="title">Shoes</h1>
                 </div>
                 <div class="item">
                     <img src="https://source.unsplash.com/150x150/?macbook" alt="Unable to load">
@@ -63,6 +83,10 @@
                 <div class="item">
                     <img src="https://source.unsplash.com/150x150/?aeroplane" alt="Unable to load">
                     <h4 class="title">Travel</h1>
+                </div>
+                <div class="item">
+                    <img src="https://source.unsplash.com/150x150/?suits" alt="Unable to load">
+                    <h4 class="title">Suits</h1>
                 </div>
             </div>
 
@@ -81,22 +105,23 @@
                 <h2 class="my-2">Shoes</h2>
 
                 <div class="cards">
-                    <div class="card-item">
-                        <img src="https://source.unsplash.com/160x160/?reebok,shoes"   alt="Unable to load">
-                    
-                        <div class="lines">
-                            <p class="text-center my-1">Reebok</p>
-                            <p class="text-center my-1">Upto 30% off</p>
-                            <p class="text-center my-1">Buy Now</p>
-                        </div>
-                    </div>
+                   
                     <div class="card-item">
                         <img src="https://source.unsplash.com/160x160/?Nike,shoes"   alt="Unable to load">
                     
                         <div class="lines">
                             <p class="text-center my-1">Nike</p>
                             <p class="text-center my-1">Min 40% off</p>
-                            <p class="text-center my-1">Buy Now</p>
+                            <p class="text-center my-1"><button class="buybutton">Buy Now</button></p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Woodland,shoes"   alt="Unable to load">
+                    
+                        <div class="lines">
+                            <p class="text-center my-1">Woodland</p>
+                            <p class="text-center my-1">Min 40% off</p>
+                            <p class="text-center my-1"><button class="buybutton">Buy Now</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -105,7 +130,7 @@
                         <div class="lines">
                             <p class="text-center my-1">Adidas</p>
                             <p class="text-center my-1">Upto 50% off</p>
-                            <p class="text-center my-1">Buy Now</p>
+                            <p class="text-center my-1"><button class="buybutton">Buy Now</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -114,7 +139,7 @@
                         <div class="lines">
                             <p class="text-center my-1">Fila</p>
                             <p class="text-center my-1">Min 20% off</p>
-                            <p class="text-center my-1">Buy Now</p>
+                            <p class="text-center my-1"><button class="buybutton">Buy Now</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -123,7 +148,7 @@
                         <div class="lines">
                             <p class="text-center my-1">Bata</p>
                             <p class="text-center my-1">Upto 30% off</p>
-                            <p class="text-center my-1">Buy Now</p>
+                            <p class="text-center my-1"><button class="buybutton">Buy Now</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -132,7 +157,7 @@
                         <div class="lines">
                             <p class="text-center my-1">Sketchers</p>
                             <p class="text-center my-1">Min 20% off</p>
-                            <p class="text-center my-1">Buy Now</p>
+                            <p class="text-center my-1"><button class="buybutton">Buy Now</button></p>
                         </div>
                     </div>
                 </div>
@@ -151,8 +176,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Oneplus</p>
-                            <p class="text-center my-1">From 25999</p>
-                            <p class="text-center my-1">Explore Now!</p>
+                            <p class="text-center my-1">From &#x20B9 25999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -160,8 +185,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Iphone</p>
-                            <p class="text-center my-1">From 69999</p>
-                            <p class="text-center my-1">Explore Now!</p>
+                            <p class="text-center my-1">From &#x20B9 69999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -169,8 +194,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Vivo</p>
-                            <p class="text-center my-1">From 12999</p>
-                            <p class="text-center my-1">Explore Now!</p>
+                            <p class="text-center my-1">From &#x20B9 12999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -178,8 +203,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Oppo</p>
-                            <p class="text-center my-1">From 15999</p>
-                            <p class="text-center my-1">Explore Now!</p>
+                            <p class="text-center my-1">From &#x20B9 15999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -187,8 +212,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Samsung</p>
-                            <p class="text-center my-1">From 18999</p>
-                            <p class="text-center my-1">Explore Now!</p>
+                            <p class="text-center my-1">From &#x20B9 18999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -196,8 +221,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Xiaomi</p>
-                            <p class="text-center my-1">From 9999</p>
-                            <p class="text-center my-1">Explore Now!</p>
+                            <p class="text-center my-1">From &#x20B9 9999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                 </div>
@@ -215,8 +240,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Beds</p>
-                            <p class="text-center my-1">From 39999</p>
-                            <p class="text-center my-1">Grab Now</p>
+                            <p class="text-center my-1">From &#x20B9 39999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -224,8 +249,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Table</p>
-                            <p class="text-center my-1">From 19999</p>
-                            <p class="text-center my-1">Grab Now</p>
+                            <p class="text-center my-1">From &#x20B9 19999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -233,8 +258,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Sofas</p>
-                            <p class="text-center my-1">From 49999</p>
-                            <p class="text-center my-1">Grab Now</p>
+                            <p class="text-center my-1">From &#x20B9 49999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -242,8 +267,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Lamp</p>
-                            <p class="text-center my-1">From 9999</p>
-                            <p class="text-center my-1">Grab Now</p>
+                            <p class="text-center my-1">From &#x20B9 9999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -251,8 +276,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Wardrobe</p>
-                            <p class="text-center my-1">From 14999</p>
-                            <p class="text-center my-1">Grab Now</p>
+                            <p class="text-center my-1">From &#x20B9 14999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                     <div class="card-item">
@@ -260,8 +285,8 @@
                     
                         <div class="lines">
                             <p class="text-center my-1">Bunk Bed</p>
-                            <p class="text-center my-1">From 11999</p>
-                            <p class="text-center my-1">Grab Now</p>
+                            <p class="text-center my-1">From &#x20B9 11999</p>
+                            <p class="text-center my-1"><button class="buybutton">Explore Now!</button></p>
                         </div>
                     </div>
                 </div>

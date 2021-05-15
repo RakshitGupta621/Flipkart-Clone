@@ -1,0 +1,39 @@
+
+.card{
+    max-width: 85vw;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 15px;
+   
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.buybutton{
+    padding: 5px 15px;
+    border: none;
+    color: var(--main-bg-color);   
+    background-color: aliceblue; 
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.buybutton:hover{
+    background-color: var(--main-bg-color);
+    color: white;
+    padding: 4px 8px;
+    font-weight: 400;
+}

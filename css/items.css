@@ -1,0 +1,32 @@
+
+.items{
+    justify-content: start;
+    display: flex;
+    flex-direction: row;
+    padding: 1vw;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.item{
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.item img:hover{
+    width: 101%;
+}
+
+.items img{
+    border-radius: 50% ;
+    width: 90px;
+    padding: 0 12px;
+}
+
+.items h4:hover{
+    color: var(--main-bg-color);
+    cursor:pointer;
+}

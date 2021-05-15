@@ -1,0 +1,12 @@
+footer{
+    height: 5vh;
+    padding-top: 2vh;
+    background-color: var(--main-bg-color);
+    color: azure;
+    font-family: 'Lato', sans-serif;
+}
+
+footer h5{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
