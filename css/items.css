@@ -17,7 +17,7 @@
 }
 
 .item img:hover{
-    width: 101%;
+    border-radius: 2px;
 }
 
 .items img{
